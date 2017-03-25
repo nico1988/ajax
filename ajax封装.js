@@ -1,4 +1,4 @@
-
+//this is a function that packege ajax
 function ajax(url,type,param,dataType,callback){
     var xhr = null;
     if(window.XMLHttpRequest){
