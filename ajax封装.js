@@ -1,4 +1,5 @@
 //this is a function that packege ajax
+//can't change the order of the paraments
 function ajax(url,type,param,dataType,callback){
     var xhr = null;
     if(window.XMLHttpRequest){
