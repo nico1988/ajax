@@ -1,7 +1,8 @@
+//to use below ,you must import the jquery.js
 $.ajax({
     type: 'post',
     // url: './11.php?code=' + code,
-    url: './11.php',
+    url: 'your.php',//here you set you php.file
     data : {code:code},
     dataType: 'json',//xml json text html script jsonp
     success: function(data) {                    
