@@ -103,5 +103,5 @@ function ajax4Jsonp(defaults){
     var script = document.createElement('script');
     script.src = defaults.url + '?' + defaults.jsonp + '=' + cbName + param;
     var head = document.getElementsByTagName('head')[0];
-    head.appendChild(script);
+    head.appendChild(script); 
 }
