@@ -1,3 +1,4 @@
+//实现跨域和ajax支持
 function ajax(obj){
     var defaults = {
         type : 'get',
