@@ -1,4 +1,3 @@
-
 function ajax(obj){
     // 默认参数
     var defaults = {
